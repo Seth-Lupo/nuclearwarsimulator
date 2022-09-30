@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-02uic4=7m-wbx%y_a766xj$5#8i_98w6eo!)0u76o1zw7&im)f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["nuclearwarsimulator.xyz", "localhost"]
+ALLOWED_HOSTS = ["www.nuclearwarsimulator.xyz", "localhost"]
 
 
 # Application definition
