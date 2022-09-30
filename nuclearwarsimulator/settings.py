@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-02uic4=7m-wbx%y_a766xj$5#8i_98w6eo!)0u76o1zw7&im)f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["nuclearwarsimulator.xyz", "localhost"]
 
 
 # Application definition
