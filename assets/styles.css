@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    
+
+}
+
+body {
+    max-width: 100vw;
+    min-height: calc(90vh - 10vw);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: var(--black);
+    padding: 5vw;
+
+    --black: #101010;
+    --green: #1fc742;
+    --dark-green: #025B18;
+
+    
+}
+
+.primaryHeader {
+    font-family: "Bubble";
+    color: var(--green);
+    font-size: 90px;
+    margin: 30px auto;
+    text-align: center;
+    /* animation: jiggle 2s infinite ease-in-out; */
+}
+
+@keyframes jiggle {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+.secondaryHeader {
+    font-family: "Pixels";
+    color: red;
+    font-size: 45px;
+    margin: 30px auto 15px auto;
+    animation: blink 2s infinite step-end;
+    text-align: center;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+button, a {
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-size: 50px;
+    font-family: "Pixels";
+    border: 1px var(--black) solid;
+    color: #101010;
+    text-decoration: none;
+}
+
+
+button:hover, a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color:var(--green);
+    border-color: var(--green);
+    border: 1px var(--green) solid;
+}
+
+.readStartButton {
+    margin: 30px auto;
+    display: block;
+    font-size: 50px;
+    font-family: "Pixels";
+    padding: 30px;
+}
+
+.readButton {
+    margin: 30px auto;
+    display: block;
+    font-size: 50px;
+    font-family: "Pixels";
+    padding: 5px;
+}
+
+.choiceButton {
+    font-size: 50px;
+    font-family: "Pixels";
+    padding: 15px;
+    margin: 15px;
+}
+
+.revealableText {
+    font-family: "Pixels";
+    color: var(--green);
+    font-size: 30px;
+    margin: 30px 0px;
+}
+
+.revealedText {
+    animation: flicker 0.5s forwards;
+}
+
+@keyframes flicker { 
+    0% {
+        color: var(--green);
+    }
+    100% {
+        color: var(--dark-green);
+    }
+}
+
+label {
+    color: white;
+    font-family: "Pixels";
+    font-size: 50px;
+}
+
+.nameInput {
+    height: 60px;
+    font-size: 50px;
+    font-family: "Pixels";
+    width: 40vw;
+    text-align: center;
+}
+
+.titleLabel {
+}
+
+.radioLabel {
+    background-color: white;
+    transition: background-color 0.3s;
+    color: var(--black);
+    padding: 5px;
+}
+
+.radio {
+    font-size: 100px;
+    display: none;
+}
+
+input:checked + label {
+    background-color: grey;
+}
+
+#genderInputDiv {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+#genderRadioDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+#nameInputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#startForm{
+    display: flex;
+    flex-flow: column;
+    width: 40vw;
+    margin: 25px 25vw;
+}
+
+#startFormButton {
+    margin-top: 90px;
+    font-size: 50px;
+    font-family: "Pixels";
+    padding: 15px;
+}
+
+#warningHeader {
+    font-family: "Pixels";
+    font-size: 20px;
+    color: red;
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.chapterHeader {
+    font-family: "Bubble";
+    color:var(--green);
+    font-size: 45px;
+    text-align: center;
+}
+
+#choicesDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#choiceInfo {
+    font-size: 30px;
+    font-family: "Pixels";
+    text-align: center;
+    color: var(--green);
+}
+
+.endingHeader {
+    color: var(--green);
+    text-align: center;
+    font-family: "Bubble";
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.readEndingButton {
+    margin: 30px auto;
+    display: block;
+    font-size: 50px;
+    font-family: "Pixels";
+    padding: 30px;
+
+}
+
+.goodEndingBody {
+    background-color: antiquewhite;
+    animation: goodEndingBody 0.5s forwards;
+}
+
+.badEndingBody {
+    animation: badEndingBody 2s infinite;
+}
+
+@keyframes goodEndingBody {
+    0% {
+        background-color: var(--black);
+    }
+    100% {
+        background-color: antiquewhite;
+    }
+
+}
+
+@keyframes badEndingBody {
+    0% {
+        background-color: var(--black);
+    }
+    1% {
+        background-color: red;
+    }
+    50% {
+        background-color: var(--black);
+    }
+    100% {
+        background-color: var(--black);
+    }
+
+}
+
+.goodEndingHeader {
+    color: goldenrod;
+}
+
+img {
+    display: block;
+
+    width: 45vw;
+    margin: 60px auto;
+}
+
+#farewell {
+    font-size: 45px;
+    font-family: "Pixels";
+    text-align: center;
+    color: var(--dark-green);
+}
+
+#restart {
+    font-size: 45px;
+    padding: 15px;
+    margin: 45px auto 0px auto;
+    display: block;
+    width: min-content;
+}
+
+#restart:hover {
+    /* background-color: #101010;
+    color: #1fc742;
+    border-color: #1fc742; */
+}
+
+
+    
