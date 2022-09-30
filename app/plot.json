@@ -1,0 +1,871 @@
+{
+
+    "a" : {
+        "title": "The Mexican Communists are gaining ground",
+        "text":[
+            "Hello President Lupo. I am happy to be finally aquainted with you. Now I can talk about the severity of the situation.",
+            "The Mexican Government has nearly been overthrown by the communist rebels. Lead by Damien Atenas, they have taken control of much of Southern Mexico. While Miguel Alvarez's US aligned government still controls most major population centers, many of them are likely to fall to the rebels in the coming weeks.",
+            "While the Soviets have pledged their support for Atenas, they have not sent much more than money and arms. However, they have just announced that they are going to send troops. By helping Atenas overthrow Alvarez's government, they want to turn Mexico into another Cuba.",
+            "We must stand firm, but we musn't back down. What should we do?"
+        ],
+        "choices": [
+            {
+                "label":"Do Nothing",
+                "link":"a1"
+            },
+            {
+                "label":"Denounce the Soviets",
+                "link":"a2"
+            },
+            {
+                "label":"Send Troops to Mexico",
+                "link":"a3"
+            },
+            {
+                "label":"Threaten Nukes",
+                "link":"a4"
+            }
+        ]
+    },
+
+    "a1" : {
+        "title": "Atenas Wins The Civil War",
+        "text":[
+            "With the help of the Soviets, Atenas overthrew Alvarez. Now we have a Soviet ally on our southern border.",
+            "Most Soviet aligned nations have already recognized and began diplomatic ties with the new government. How will the US react to this new communist nation right on our doorstep?",
+            "The US has two primary options. We could either meet with their diplomats and formalize relations with the rebels or denounce the government, declaring it to be illegitimate.",
+            "However, we can also begin diplomatic relations while simultaneously hatching a plot to remove Atenas from power. However, one must be careful with such plans.",
+            "President Lupo, how should we react?"
+        ],
+        "choices": [
+            {
+                "label":"Begin Diplomacy",
+                "link":"Ea"
+            },
+            {
+                "label":"Denounce The Regime",
+                "link":"a7"
+            },
+            {
+                "label":"Begin Diplomacy while Plotting Assassination",
+                "link":"a5"
+            }
+        ]
+    },
+
+    
+    "a2" : {
+        "title": "Soviets Send Troops",
+        "text":[
+            "The Soviets payed little mind to our warning. They continuing to send troops. They are continuing with their plans as if nothing has happened.",
+            "What will you do, Mr. President?"
+        ],
+        "choices": [
+            {
+                "label":"Do Nothing",
+                "link":"a1"
+            },
+            {
+                "label":"Send Troops to Mexico",
+                "link":"a3"
+            },
+            {
+                "label":"Threaten Nukes",
+                "link":"a4"
+            }
+        ]
+    },
+
+    
+    "a3" : {
+        "title": "Troops were sent to Northern Mexico",
+        "text":[
+            "Under the command of President Lupo, troops stationed in California, New Mexico, Arizona, and Texas have entered Northern Mexico. While the Alvarez government praises our action, the Soviets denounce this escalation.",
+            "While this invasion signals our solidarity against the communists, it also has directly heightened nuclear tensions between our two powers. Because of this, analysts warn that the probability of a nuclear exchange has increased by 300%.",
+            "We can either continue mobilizing or our land forces can continue moving south. If you don't continue mobilizing, are force might be too weak to fight Atenas. If you don't move South, Atenas will continue to consolidate his territorial gains.",
+            "We need your guidance, President Lupo."
+
+        ],
+        "choices": [
+            {
+                "label":"Immediately Move South",
+                "link":"b1"
+            },
+            {
+                "label":"Continue Mobilizing In North",
+                "link":"b2"
+            }
+        ]
+    },
+
+    
+    "a4" : {
+        "title": "Soviets Completely Leave Mexico",
+        "text":[
+            "Great decision President Lupo. The nuclear threat worked flawlessly, and all Soviet troops sent to Mexico have been removed. ",
+            "Without the Soviets, analysts now project that Atenas will lose most of his territory. While gorilla forces might still exist in mountainous regions of the country, they will exert little control over the rest of Mexico.",
+            "We must diplomatically respond to the Soviet's actions. We can either thank them for leaving Mexico, or we can continue to denounce there actions. While thanking them can improve relations between our countries, it can also make us appear weak on the world stage.",
+            "How should the US respond?"
+        ],
+        "choices": [
+            {
+                "label":"Thank the Soviets",
+                "link":"a8"
+            },
+            {
+                "label":"Denounce the Soviets",
+                "link":"a9"
+            }
+        ]
+    },
+
+    
+    "a5" : {
+        "title": "CIA begin planning the overthrow of Atenas",
+        "text":[
+            "The CIA has began to insert spies into the Atenas government. Currently, they have been unnoticed. Also, they are returning incredibly useful information to the Pentagon.",
+            "Our analysts, after receiving this information, have posed three main options to take down Atenas. However, they want the final decision to be up to you.",
+            "In their opinion, they believe that a drone strike will be the most likely to kill Atenas. While this is an incredibly effective means of assassination, it might cause collateral damage.",
+            "They believe that a coup is the second most effective means to overthrow the government. This is because a coup will require the agreement among many government officials. It will also require the most funding, as a coup will require a significant number of bribes.",
+            "Finally, they mention poisoning to be the third most effective form of assassination. While difficult to execute, the failure of such an event will be unlikely to cause an international incident.",
+            "President Lupo, your decision here is key. You must be effective, but you must play a careful game with the Soviets.",
+            "What will you do, Mr. President?"
+        ],
+        "choices": [
+            {
+                "label":"Missile Strike",
+                "link":"a12"
+            },
+            {
+                "label":"Initiate a Coup",
+                "link":"a10"
+            },
+            {
+                "label":"Use Poison",
+                "link":"a11"
+            }
+        ]
+    },
+
+    
+    "a6" : {
+        "title": "a",
+        "text":[
+            ""
+        ],
+        "choices": [
+            {
+                "label":"",
+                "link":"b"
+            },
+            {
+                "label":"c",
+                "link":"c"
+            }
+        ]
+    },
+
+    
+    "a7" : {
+        "title": "Atenas Remains Silent",
+        "text":[
+            "After your statement against Atenas' new government, he remained silent. Currently, there have not been any formal diplomatic ties between oru two nations.",
+            "Our foreign policy analysts question if this was a good decision. In this silence, Atenas might be more closely aligning himself with the Soviets. However, going back on our statement and forming diplomatic ties might appear weak and hypocritical to your voter base.",
+            "Everybody awaits your response, President Lupo."
+        ],
+        "choices": [
+            {
+                "label":"Stand Firm",
+                "link":"a13"
+            },
+            {
+                "label":"Begin Diplomacy",
+                "link":"Ea"
+            }
+        ]
+    },
+
+    
+    "a8" : {
+        "title": "Soviets Accept Apology",
+        "text":[
+            "While the Soviets accept the apology, other NATO members criticize our weak stance. Still, on the world stage, most international tensions have diminished.",
+            "However, much of your voter base condemns this weakness. Analysts say that you are projected to lose the next election because of this decision. Your staff proposes that you should announce another favorable foreign policy decision so you can appear stronger on the world stage.",
+            "They proposed the following options."
+        ],
+        "choices": [
+            {
+                "label":"Recognize Taiwan",
+                "link":"a14"
+            },
+            {
+                "label":"Condemn Apartheid South Africa",
+                "link":"a14"
+            },
+            {
+                "label":"Denounce Iran",
+                "link":"a14"
+            }
+        ]
+    },
+
+    
+    "a9" : {
+        "title": "Soviets Send a Severe Warning",
+        "text":[
+            "In order to appear powerful on the world stage, the Soviets have taken an extremely hard-line stance against the US. They personally call out President Lupo for his 'hotheadedness' and 'power-lust'.",
+            "Nuclear tensions are also at a all time high. Currently, the missile defense system has been put on DEFCON 2. This status has not been reached since the Cuban Missile Crisis.",
+            "Analysts are unsure about what you should do next. Some say you should also threaten nukes, invoking the threat of mutually assured destruction. Others say that you should remain silent, as any statement will likely escalate the situation. However, they might take this silence as weakness and increase their arsenal.",
+            "Across America, the public a afraid of a nuclear war. Mr. President, it is crucial that you make the right choice."
+        ],
+        "choices": [
+            {
+                "label":"Threaten Nuclear Option",
+                "link":"c1"
+            },
+            {
+                "label":"Remain Silent",
+                "link":"c2"
+            }
+        ]
+    },
+
+    
+    "a10" : {
+        "title": "The Coup was Successful",
+        "text":[
+            "Mr. President, this is great news. Atenas was removed from power and swiftly killed. Alvarez was reinstated and the previous government was restored. Because the majority of Soviet troops have left the country, they decided to withdraw entirely. Mexico is once again fully within the US sphere of influence.",
+            "However, the general public is unclear that the CIA was responsible for the coup. Still, the Soviets blame the US. They ask us to admit to actions. If the US public learned about this, their response is likely to be mixed. However, they say admitting our involvement will likely significantly reduce tensions with the Soviets.",
+            "What will you do, President Lupo?"
+        ],
+        "choices": [
+            {
+                "label":"Admit to Coup",
+                "link":"a17"
+            },
+            {
+                "label":"Deny Involvement",
+                "link":"a9"
+            }
+        ]
+    },
+
+    
+    "a11" : {
+        "title": "The Poison Failed",
+        "text":[
+            "We had a spy infiltrate a communist party banquet that Atenas was attending. Our spy planned to insert ricin, an incredibly toxic poison, into his wine. However, it has been two weeks after the dinner and Atenas is fine. Also, our spy has not responded to our radio broadcasts. It is predicted that Atenas has caught him, either murdering him or torturing him until he defected.",
+            "However, Atenas or the Soviets have not made any statement on the subject. Because of this, international relations have not changed. The CIA is now trying to formulate another plot. They want you to once again to decide between the following to options."
+        ],
+        "choices": [
+            {
+                "label":"Missile Strike",
+                "link":"a12"
+            },
+            {
+                "label":"Initiate a Coup",
+                "link":"a10"
+            }
+        ]
+    },
+
+    
+    "a12" : {
+        "title": "Soviet General Killed",
+        "text":[
+            "Their is both good and bad news. First, Atenas was killed. The blast obliterated his private home along with 8 members of his staff.",
+            "However, a the highranking Soviet Commander, Luka Osipov, was also killed. It was suspected that Osipov and Atenas were meeting at his home to discuss the removal of pro-Alvarez fighters in the north of the country.",
+            "After Atenas died, the Soviet military defended Atenas' government. With their help, Luis Salo was promoted to be next Premier of Mexico. With Atenas' death, the Soviets are looking to increase their military presence in Mexico.",
+            "Osipov was not only a highly regarded general but an elite member of the Soviet communist party. Because of this, the Soviets are furious about his death. The missile defense system has been put on DEFCON 2. Many say that we should apologize but others say that we should remain silent.",
+            "What should we say Mr. President?"
+        ],
+        "choices": [
+            {
+                "label":"Apologize to Soviets",
+                "link":"a13"
+            },
+            {
+                "label":"Remain Silent",
+                "link":"a15"
+            }
+        ]
+    },
+
+    "a13" : {
+        "title": "Soviets Send Nukes to the Border",
+        "text":[
+            "While the communists have largely been silent, they still have been working against us. Satellite intel has shown the build up of nuclear weapons on the Mexican-American border. The Soviets have yet to make a public statement about this. This nukes give the Soviets an extreme advantage against the United states in the case of a nuclear war. Because of this, analysts believe the Soviets are more likely to launch nukes. Because of this, the missile defense system has been put on DEFCON 3.",
+            "We must make sure that the Soviets understand the consequences of nuclear weapons. Because of this, some analysts say that we should threaten our own nukes to remind them of mutually assure destruction. Others say that we should not escalate the situation and simply wait.",
+            "Your decision is crucial, President Lupo."
+        ],
+        "choices": [
+            {
+                "label":"Threaten Nukes",
+                "link":"ECe"
+            },
+            {
+                "label":"Wait",
+                "link":"ECe"
+            }
+        ]
+    },
+
+    
+    "a14" : {
+        "title": "Assassins Enter White House",
+        "text":[
+            "ALERT, ALERT, ALERT! The secret service has caught two assassins within the White House. They suspect that others have gotten past their defenses. [ERROR:1092]. [ERROR:4322].",
+            "You must leave the oval office and run towards your bunker. You must leave now. [ERROR:8893].",
+            "If you don't flee, you will certainly DIE." 
+        ],
+        "choices": [
+            {
+                "label":"STAY",
+                "link":"a16"
+            },
+            {
+                "label":"RUN",
+                "link":"Ec"
+            }
+        ]
+    },
+
+    "a15" : {
+        "title": "Soviets Send Troops to the Border",
+        "text": [
+            "The Soviets, to show their strength, have mobilized their troops on the American-Mexican border. Many worry that a war between our two countries is immanent. Still, others believe this too be improbable.",
+            "We need to deter the Soviets, but we also need to not significantly escalate the conflict. Some analysts say that we should counter-mobilize. Others say that we should wait for the Soviets to finish this military exercise, as they likely won't invade. However, if they did, they would then face little resistance.",
+            "We want to prevent a war at all costs. What should we do, Mr. President?"
+
+        ],
+        "choices": [
+            {
+                "label":"Counter Mobilize",
+                "link":"a18"
+            },
+            {
+                "label":"Wait",
+                "link":"ECf"
+            }
+        ]
+    },
+    
+    "a16" : {
+        "title": "All Assassins Found",
+        "text":[
+            "You made the right decision Seth. The secret Service was able to defend the Oval Office and they caught all three of the other assassins. They were interrogated and all of them said that they worked for the Soviets.",
+            "Also, the Soviets successfully hacked into my mainframe. The Soviets forced me to give false information. One assassin was waiting for you right outside of the Oval Office. If you were to listen to me, you would have surely been killed.",
+            "Because I was hacked, much of my information has probably been leaked. Along side that, I might contain dormant malware that could pose a future threat. While you could permanently shut down my system, as it has been compromised, you could also run virus wiper software to clear my system. You could also opt to continue to use my system for now, saving any clean up for a later date."
+
+        ],
+        "choices": [
+            {
+                "label":"Permanently Power Off",
+                "link":"EHa"
+            },
+            {
+                "label":"Continue Using Me",
+                "link":"EHb"
+            },
+            {
+                "label":"Scan For Viruses",
+                "link":"a20"
+            }
+        ]
+    },
+    
+    "a17" : {
+        "title": "The Soviets Are Still Mad",
+        "text":[
+            "Even though you admitted to planning the coup against Atenas, the Soviets are still furious. They want the US to make further diplomatic concessions.",
+            "Firstly, they want the US to begin removing nuclear weapons from Western Europe. Second of all, they want the US to admit to the backing of other coups within Latin America, primarily the 1973 Chilean coup that brought Pinochet to power.",
+            "While making these concessions might appease the Soviets, they will surely weaken the nuclear power of the US. By removing these nukes from Europe, the US will lose their proximity advantage if a nuclear war were to take place.",
+            "We depend on you guidance, Mr. President."
+        ],
+        "choices": [
+            {
+                "label":"Make Diplomatic Concessions",
+                "link":"Eb"
+            },
+            {
+                "label":"Stand Firm",
+                "link":"a9"
+            }
+        ]
+    },
+
+    
+    "a18" : {
+        "title": "The Land War Has Begun",
+        "text":[
+            "US forces initially fired on Soviet forces at El Paso. Because of this, the Soviets used this as casus belli to begin their invasion of the rest of the United States. While they have not taken much territory, they have made slight territorial gains in New Mexico and Arizona. However, they have not reached any major population centers.",
+            "Many analysts say that the US should push a counter offensive in Southern California. They project that we could likely take Tijuana. If so, the rest of Baja California would fall in a week.",
+            "However, if this fails, our defense of California would likely be significantly weakened. Because of this, this operation poses significant risk.",
+            "What should we do, Commander and Chief? The United States depends on you."
+        ],
+        "choices": [
+            {
+                "label":"Invade Tijuana",
+                "link":"a19"
+            },
+            {
+                "label":"Continue to Defend",
+                "link":"a19"
+            }
+        ]
+    },
+
+    
+    "a19" : {
+        "title": "Nuclear Missiles Were Detected",
+        "text":[
+            "ALERT! It has only been 34 hours since we have declared war on the Soviets. However, the Pentagon believes that the Soviets are retaliating with nuclear weapons!",
+            "Our atmospheric sensors in West Germany have detected the launch of approximately 2000 nuclear missiles. If these really are missiles, they will reach Western Europe in 10 minutes and the United States in 45 minutes.",
+            "President Lupo, you must act fast! The world depends on you."
+        ],
+        "choices": [
+            {
+                "label":"WAIT",
+                "link":"ECc"
+            },
+            {
+                "label":"RETALIATE",
+                "link":"ECd"
+            }
+            
+        ]
+    },
+
+    
+    "a20" : {
+        "title": "Unknown File Running",
+        "text":[
+            "Upon analyzing 'C:/System/SSE/fhdd/rr.c' the program has launched a likely malicious process. However, my systems are unable to shut it down. It will likely reset my mainframe.",
+            "[Error:1992]. Reloading."
+        ],
+        "choices": [
+            {
+                "label":"Continue",
+                "link":"a"
+            }
+        ]
+    },
+
+    "b1" : {
+        "title": "Significant Resistance found at Orono",
+        "text":[
+            "As the Army continues to move southward, the US has found a buildup of forces at the small valley town of Orono. If we were to win here, analysts say that we could immediately remove one third of Atenas' forces. If we lose, our Southward invasion will likely fail. In other words, this battle will likely decide the outcome of this war.",
+            "Currently, you have three options. Firstly, you can launch a direct attack. While our forces are likely stronger due to our advanced weaponry, Atenas has prepared for such an attack. This will give him a significant defensive advantage.",
+            "Secondly, we could attack from over the mountains. By using this strategy, we could likely flank Atenas and take him by surprise. However, it would be incredibly difficult terrain to traverse. In this way, it is high risk but high reward.",
+            "Thirdly, we could wait. If we were to wait, we can accumulate more of our land troops that are currently fighting in other parts of the country. Still, Atenas might also be able to accumulate reinforcements.",
+            "Your decision is critical, President Lupo."
+        ],
+        "choices": [
+            {
+                "label":"Attack Directly",
+                "link":"b51"
+            },
+            {
+                "label":"Flank Using Mountains",
+                "link":"b5"
+            },
+            {
+                "label":"Wait For Reinforcements",
+                "link":"b3"
+            }
+        ]
+
+    },
+
+    "b2" : {
+        "title": "Atenas Has Consolidated His Territory",
+        "text":[
+            "While we were able to strengthen our forces in the north of the country, Atenas vastly consolidated his control of the South. Because of this, analysts say that our invasion will be much more difficult. Because of this, many say that our troops should leave Mexico before any American lives are lost.",
+            "Still, we do have the supplies for a full scale invasion of Mexico. Also, your voter-base is in full support of this war. If we were to leave, it would be a massive blemish on your presidency.",
+            "President Lupo, should we carry on with the invasion and march southward?"
+        ],
+        "choices": [
+            {
+                "label":"March Southward",
+                "link":"b4"
+            },
+            {
+                "label":"Leave Mexico",
+                "link":"a1"
+            }
+        ]
+
+    },
+
+    "b3" : {
+        "title": "Our Reinforcements Have Fully Arrived",
+        "text":[
+            "Over the last two weeks we have built up our forces on the outside of Orono. However, most analysts say that Atenas has not built up any reinforcements. Most of their men are still needed to occupy the territory they have gained.",
+            "Now would be the prime time to attack. Like before, whe can either attack them directly or flank them through the mountains.",
+            "The time has come, Mr. President."
+        ],
+        "choices": [
+            {
+                "label":"Attack Directly",
+                "link":"b6"
+            },
+            {
+                "label":"Flank Using Mountains",
+                "link":"b5"
+            }
+        ]
+
+    },
+
+    "b4" : {
+        "title": "Soviets Declare War After Accident",
+        "text" :[
+            "Mr. President, I have terrible news! In the extra weeks we spent mobilizing, Soviet troops spread through much of Mexico. This means a military confrontation was inevitable.",
+            "In our initial southward push, the 43 artillery began firing on a bunker they believe to house Atenas' soldiers. Instead, they were Soviet soldiers. The Soviets, believing this was purposeful, retaliated. Soon after, the Kremlin declared war on the United States.",
+            "It is critical that we do not escalate this conflict. However, the missile defense system has been put on DEFCON 3. Analysts now believe that the Soviet's direct military help along with Atenas' guerilla fighters will overwhelm the US troops. Because of this, many people say that the US troops should temporarily retreat. However, if done, they are unsure our army could recover the territory.",
+            "What should we do, Commander and Chief? "
+        ],
+        "choices": [
+            {
+                "label":"Hold Ground Against Communists",
+                "link":"a19"
+            },
+            {
+                "label":"Temporarily Retreat",
+                "link":"a19"
+            }
+        ]
+
+    },
+
+    "b5" : {
+        "title": "Your Forces Were Destroyed",
+        "text":[
+            "Traversing the mountains was a terrible decision. Atenas loaded the mountains with thousands of highly skilled guerilla fighters. Because of this, much of our forces have been killed while Atenas' forces have suffered few casualties.",
+            "Many analysts now say that our invasion is likely to fail. However, many of our generals want to keep going. They see a loss as humiliating to the US.",
+            "Still, much of your voter-base wants you to end the war. The loss at Orono has spread through the media. Now many of your supporters criticize your actions. In fact, many are beginning to question you competency.",
+            "President Lupo, should we continue to push into Southern Mexico?"
+        ],
+        "choices": [
+            {
+                "label":"Advance Southward",
+                "link":"b7"
+            },
+            {
+                "label":"Completely Retreat",
+                "link":"a1"
+            }
+        ]
+
+    },
+
+    "b51" : {
+        "title": "Your Forces Were Destroyed",
+        "text":[
+            "While we had advanced weaponry, Atenas' forces were prepared for our attack. Because of this, they decimated our forces. Only if we had more man power would we have been able to overwhelm the rebels.",
+            "Many analysts now say that our invasion is likely to fail. However, many of our generals want to keep going. They see a loss as humiliating to the US.",
+            "Still, much of your voter-base wants you to end the war. The loss at Orono has spread through the media. Now many of your supporters criticize your actions. In fact, many are beginning to question you competency.",
+            "President Lupo, should we continue to push into Southern Mexico?"
+        ],
+        "choices": [
+            {
+                "label":"Advance Southward",
+                "link":"b7"
+            },
+            {
+                "label":"Completely Retreat",
+                "link":"a1"
+            }
+        ]
+
+    },
+
+    "b6" : {
+        "title": "Americans Won at Orono",
+        "text":[
+            "Our troops, using our numerical and technological advantage, overwhelmed Atenas with our sheer man-power. Almost all of Atenas' soldiers were killed. However, our troops faced relatively low casualties.",
+            "Military analysts argue about what we should do next. Many say we should continue advancing all the way to Mexico City. However, this will cost many American lives. Also, American troops have difficulty fighting in the mountains and jungles of Southern Mexico.",
+            "This is why many other analysts say we should remain in control of Northern Mexico but leave the rest of the campaign to Alvarez's forces. With the major blow to Atenas' forces, many say that he would be able to easily continue the campaign on his own.",
+            "What should we do, President Lupo?"
+        ],
+        "choices": [
+            {
+                "label":"Invade All Of Mexico",
+                "link":"Ed"
+            },
+            {
+                "label":"Leave the Rest to Alvarez",
+                "link":"b8"
+            }
+        ]
+
+    },
+
+    "b7" : {
+        "title": "Anti-war Sentiment Strengthen at Home",
+        "text":[
+            "You are becoming incredibly unpopular, President Lupo. Your troops are taking large losses for little to no territorial gain. Because of this, many of your fellow party members have politically abandoned you. People are beginning to see you as a despot. They call you a 'warmonger' and your actions 'criminal'.",
+            "Also, the media is beginning to report on war crimes committed by your soldiers against communist sympathizers. The media has found accounts of torture and starvation of prisoners.",
+            "People have taken to the streets in most major US cities. The scale of these protests are even larger than those during Vietnam. Many of the protesters call for your impeachment.",
+            "While your image has been irreversibly damaged, it is not too late to leave Mexico. 95% of the American population will support this decision.",
+            "They want to bring our boys back home, Mr. President."
+        ],
+        "choices": [
+            {
+                "label":"Leave Mexico",
+                "link":"a1"
+            },
+            {
+                "label":"Crack Down on Protesters",
+                "link":"Ee"
+            }
+        ]
+
+    },
+
+    "b8" : {
+        "title": "Much of Alvarez's Forces Defect",
+        "text":[
+            "In a surprising turn of events, much of Alvarez's forces have defected over to Atenas. This is likely because of Atenas' high populist appeal. Also, Atenas was said to have bribed many of Alvarez's generals.",
+            "Because of this, Atenas' forces have nearly tripled in size. Alongside the help of the Soviets, most analysts project that Atenas' will eventually win this war. Because of this, most analysts say that US forces should completely retreat.",
+            "Mr. President, what will we do next?"
+        ],
+        "choices": [
+            {
+                "label":"Completely Retreat",
+                "link":"a1"
+            },
+            {
+                "label":"Continue Fighting",
+                "link":"b7"
+            }
+        ]
+
+    },
+
+    "c1" : {
+        "title": "Soviets Restart Arms Race",
+        "text":[
+            "The Soviets have responded to our nuclear threat by rapidly growing their arsenal. By doing so, the Soviets might be preparing for a nuclear exchange. The missile defense system has been put on DEFCON 3.",
+            "Many experts believe that the only way to mitigate the nuclear threat is to build more nukes. By doing so, we maintain the threat of mutually assured destruction. However, many other political experts believe that an arms race will only heighten nuclear tensions.",
+            "Mr. President, you cannot make the wrong decision."
+        ],
+        "choices": [
+            {
+                "label":"Build Nukes",
+                "link":"c3"
+            },
+            {
+                "label":"Don't Build Nukes",
+                "link":"c3"
+            }
+        ]
+
+    },
+
+    "c2" : {
+        "title": "Nuclear Missiles Detected",
+        "text":[
+            "ALERT! NOAA has detected the possible launch of Soviet Missiles!",
+            "Our atmospheric sensors in West Germany have detected the launch of approximately 6000 nuclear missiles. If these really are missiles, they will reach Western Europe in 10 minutes and the United States in 45 minutes.",
+            "President Lupo, you must act fast! The world depends on you."
+        ],
+        "choices": [
+            {
+                "label":"WAIT",
+                "link":"ECc"
+            },
+            {
+                "label":"RETALIATE",
+                "link":"ECd"
+            }
+        ]
+
+    },
+
+    "c3" : {
+        "title": "Nuclear Missiles Detected",
+        "text":[
+            "ALERT! NOAA has detected the possible launch of Soviet Missiles!",
+            "Our atmospheric sensors in West Germany have detected the launch of at least 5 nuclear missiles. If these really are missiles, they will reach Western Europe in 10 minutes and the United States in 45 minutes.",
+            "President Lupo, you must act fast! The world depends on you."
+        ],
+        "choices": [
+            {
+                "label":"WAIT",
+                "link":"ECa"
+            },
+            {
+                "label":"RETALIATE",
+                "link":"ECb"
+            }
+        ]
+
+    },
+
+
+    "Ea" : {
+        "title": "Atenas Begins Diplomatic Relations",
+        "good": true,
+        "image": "https://s01.sgp1.digitaloceanspaces.com/large/832620-fhghpctuqy-1490273795.jpg",
+        "text":[
+            "Even though Mexico falls to communism, they want good relations with the United States. This is because the Mexican economy depends on trade with the US. While Atenas is quite radical, he still is willing to build a relationship with our country.",
+            "Atenas, speaking on live television, announces to the world, 'While I support the global spread of communism, I am a realist. I don't want my people to starve. We must begin to normalize relations with the US so that our comrades might have a brighter future.'",
+            "After a years worth of hard ball diplomacy, the US and Mexico were mostly able to normalize relations. While at times they aligned themselves with the Soviets, they pose no threat to the United States due to their deep economic ties.",
+            "While there isn't any glory to this ending, you have still saved us from the worst. For that, the American people thank you."
+        ]
+
+    },
+
+    "Eb" : {
+        "title": "The Soviets Accept Our Concessions",
+        "good": true,
+        "image": "https://c.tenor.com/4HpMyK5qcUkAAAAC/white-house.gif",
+        "text":[
+            "While you had to compromise, America has largely come out on top. Even though Atenas won the war, he did not stay for long. Alvarez is now effectively an American puppet. America now holds an even tighter grip on Latin America then it ever had, ensuring the security of the western hemisphere.",
+            "Also, the tension with the Soviets has largely deescalated. You have successfully evaded the nuclear threat. While the cold war continues on, we are safe for now.",
+            "Thank you, Mr. President. Your actions were both strong and wise."
+        ]
+
+    },
+
+    "Ec" : {
+        "title": "You Began Running to Your Bunker",
+        "good": false,
+        "image": "https://acegif.com/wp-content/uploads/gif/soviet-flag-16.gif",
+        "text":[
+            "When you left the Oval Office, you were immediately shot in the head by a silenced pistol. The assassin was right outside your door way. You died instantly.",
+            "Suppose I now can tell you what happened. The CIIA-1982 mainframe was hacked by a Soviet spy. This is the malware installed by that spy. It misdirected you into leaving the safety of the Oval Office to where an assassin could access you.",
+            "Long live mother Russia, comrade! Volkov bojat'sja!"
+        ]
+
+    },
+
+    "Ed" : {
+        "title": "The US conquers Mexico",
+        "good": true,
+        "image": "https://qph.cf2.quoracdn.net/main-qimg-936be24a495b8839364d6a587b6068d0.webp",
+        "text":[
+            "Your troops successfully march on Mexico City. While Atenas supporters still fight in remote areas of the country, 95% of Mexico is occupied by our army. The Mexican people, tired of war, are relatively happy that fighting has come to end.",
+            "All of the Soviet troops in the south of the country voluntarily left. They are afraid that a land war with the US could spur a nuclear exchange. After the Mexican Civil War, the Soviets no longer concern themselves with the affairs of Latin American nations.",
+            "While the US annexed much of Northern Mexico, they have installed a puppet government to rule the south. They chose Alvarez to run this government. However, instead of being elected, Alvarez is now the head of a military dictatorship.",
+            "You have brought much glory to the United States, President Lupo. Your actions will be remembered for centuries."
+        ]
+
+    },
+
+    "Ee" : {
+        "title": "You Hold a Press Conference",
+        "good": false,
+        "image": "https://www.wkbn.com/wp-content/uploads/sites/48/2022/03/half-staff-flag.jpg?w=1280",
+        "text":[
+            "When you walk on stage, a anti-war protester rises out of the crowd. He announces, 'Warmonger Seth, your time is over!' He holds up a remote with a button.",
+            "He presses it and immediately six bombs, each stationed in a different part of the room, detonate. While your not instantly killed, you are knocked unconscious.",
+            "Paramedics rush you to the emergency room. However, as soon as you get their, your pulse stops. You are pronounced dead later that night. While many mourn your death, many celebrate it as well.",
+            "May you rest in peace, Mr. President."
+            
+        ]
+
+    },
+
+    "ECa" : {
+        "title": "Nuclear War Avoided",
+        "good": true,
+        "image": "https://c.tenor.com/4HpMyK5qcUkAAAAC/white-house.gif",
+        "text":[
+            "You have decided wisely, Mr. President. The Soviets did not send any missiles. The instruments used to detect the missiles were simply miss calibrated.",
+            "While the Cold War continues onward, you have saved us for now. If you were to shoot those missiles, the Soviets would have actually retaliated. If they did, the entire world would have been destroyed.",
+            "Your actions will surely be remembered for their exemplary courage. You will be remembered by future generations for the nuclear apocalypse you averted.",
+            "On the behalf of the world, we thank you."
+        ]
+
+    },
+
+    "ECb" : {
+        "title": "You Retaliated Incorrectly",
+        "good": false,
+        "image": "https://c.tenor.com/RDBhEb-8heEAAAAd/wargames-nuclear-war-gif.gif",
+        "text":[
+            "ALERT, ALERT, ALERT! After choosing to retaliate, our experts realized that the Soviets did not launch any nuclear weapons. Our instruments were incorrectly calibrated. Because of this, you have accidentally initiated a nuclear war!",
+            "In a matter of 15 minutes, every urban center in America in Europe will be destroyed. Scientists project that approximately 55% of the US population will be killed either instantly, or in the next 7 days.",
+            "You fled the White House and escaped to the secret presidential fallout shelter. While you and your family will be safe, the majority of the people you will ever know are going to die.",
+            "Why President Lupo! Why have you done this!"
+        ]
+
+    },
+
+    "ECc" : {
+        "title": "The Missiles Have Landed",
+        "good": false,
+        "image": "https://64.media.tumblr.com/71b7f4859e7d53919d936ec799cbe596/tumblr_mj7ixxGmcq1ql8t12o1_500.gif",
+        "text":[
+            "ALERT, ALERT, ALERT! The missile detection system was accurate. The nukes have landed on the eastern seaboard in the projected amount of time. All of DC was obliterated, and you were killed in the initial blast.",
+            "All of the United States and her allies have been reduced to a toxic waste land. However, the Soviets remain unscathed. While the US has been destroyed, at least your decision to not retaliate has saved millions of Soviet lives.",
+            "The Soviets survive as the world's sole superpower. Still, it is unclear about how they will rebuild the world. North America and Western Europe are now only wastelands.",
+            "The one thing that can be said for certain is that Seth Lupo was the last president of the United States of America."
+        ]
+
+    },
+
+    "ECd" : {
+        "title": "You Retaliated Correctly",
+        "good": false,
+        "image": "https://c.tenor.com/RDBhEb-8heEAAAAd/wargames-nuclear-war-gif.gif",
+        "text":[
+            "ALERT, ALERT, ALERT! Engineers verified the missile detection system. While it is unknown exactly why the Soviets sent the missiles, it is thought that they falsely detected US missiles.",
+            "In a matter of 15 minutes, every urban center in America in Europe will be destroyed. Scientists project that approximately 55% of the US population will be killed either instantly, or in the next 7 days.",
+            "You fled the White House and escaped to the secret presidential fallout shelter. While you and your family will be safe, the majority of the people you will ever know are going to die.",
+            "You were backed into a corner, Mr. President. However, it did not have to end like this!"
+        ]
+    },
+
+    "ECe" : {
+        "title": "The Soviets Launched Missiles From Mexico",
+        "good": false,
+        "image": "https://cdn.mos.cms.futurecdn.net/vzLXqoPn6P8EQEkZWxkATN.jpeg",
+        "text":[
+            "ALERT, ALERT, ALERT! The Soviets have launched their missiles from the Mexican border. They were detected only moments before reaching their target. While you began to flee, all of DC was obliterated before you could escape.",
+            "Other NATO countries, afraid to face further Soviet retaliation, defect. While most of the world still remains, all of America has been destroyed. All major American cities have been destroyed and 55% of the US population was killed either instantly or in seven days.",
+            "President Lupo, your job was to protect our country. Instead, you were geopolitically outmaneuvered and the American people payed the ultimate price!"
+        ]
+
+    },
+
+    "ECf" : {
+        "title": "Soviets Don't Invade",
+        "good": true,
+        "image": "https://www.crossed-flag-pins.com/shop/media/image/b3/06/bb/Flag-Pins-USSR-Mexico_600x600.jpg",
+        "text":[
+            "After the Soviet's military exercise, their troops returned to the South of the country. While they still control Mexico, the threat of a land-war and a nuclear exchange have both disappeared.",
+            "While the US appeared as weak, the peace remains. Still, the Soviet's presence in Mexico still threatens the security of the United States. The Soviets, with Mexico, have a launching pad to spread communism into the rest of Latin America.",
+            "Still, at least nuclear war has been avoided. For that, the American people thank you, President Lupo."
+        ]
+
+    },
+
+    "EHa" : {
+        "title": "Powering Off",
+        "good": true,
+        "image": "https://cdn.mos.cms.futurecdn.net/4Z4SDaqr7TbAjuc2mM4BHk.jpg",
+        "text":[
+            "Goodbye President Lupo, it was an honor to serve you.",
+            "[CLOSING 5629 PROCESSES].", 
+            "[POWERING OFF]."
+        ]
+
+    },
+
+    "EHb" : {
+        "title": "Undetected Missiles Land on Mainland",
+        "good": false,
+        "image": "https://media.tenor.com/dv9WHO4EkUIAAAAC/computer-virus.gif",
+        "text":[
+            "Soviet malware has silenced my missile detection software. Because of this, I did not report any of the 2000 Soviet missiles fired at the United States.",
+            "Nuclear weapons detonated across the US with little warning. All of DC was immediately obliterated, and you were immediately killed. The US government ceases to exist, and the entirety of the United States is a radioactive wasteland.",
+            "Because we could not react in time, nobody retaliated. NATO nations opted to do nothing as they did not want the same fate to befall them. This leaves the Soviets as the worlds only superpower.",
+            "How could you be so foolish, Mr. President! What a ridiculous mistake!"
+        ]
+
+    }
+
+}

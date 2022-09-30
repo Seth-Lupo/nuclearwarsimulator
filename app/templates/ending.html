@@ -1,0 +1,75 @@
+<html>
+
+{% load static %}
+
+<head>
+
+    <audio>
+        <source src="{% static 'siren.mp3' %}" type="audio/mp3" style="display: none;">
+    </audio>
+    
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+    <style>
+        @font-face {
+            font-family: "Bubble";
+            src: url("{% static 'bubble.ttf' %}");
+        }
+        
+        @font-face {
+            font-family: "Minecraft";
+            src: url("{% static 'minecraft.ttf' %}");
+        }
+        
+        @font-face {
+            font-family: "Pixels";
+            src: url("{% static 'pixels.ttf' %}");
+        }
+    </style>
+
+    <script>
+        let text = {{ text|safe }}
+        let good = {{good}}
+        let code = "{{code}}"
+        let freq = {{freq}}
+        let totalFreq = {{totalFreq}}
+        let typeFreq = {{typeFreq}}
+        console.log(text)
+    </script>
+    
+    
+</head>
+
+<body>
+    
+    <h1 class="endingHeader">{{title}}</h1>
+    <button class="readEndingButton">LEARN MORE</button>
+    <h1 id="revealableTextDiv"></h1>
+
+    <div id="finaleDiv" style="display: none;">
+        <img src={{img}} alt="">
+        <h1 id="farewell">Great Job!</h1>
+        <a id="restart" href="/start">Play Again</a>
+        
+    </div>
+
+    
+    
+</body>
+
+<footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sam-js@0.2.0/dist/samjs.min.js"></script>
+    <script src="http://iamdanfox.github.io/typetype/jquery.typetype.js"></script>
+    
+    <script src="{% static 'typer.js' %}"></script>
+    <script src="{% static 'ending.js' %}"></script>
+    
+    
+   
+    
+</footer>
+
+
+</html>

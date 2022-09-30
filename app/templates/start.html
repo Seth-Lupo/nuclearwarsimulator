@@ -1,0 +1,83 @@
+<html>
+
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    
+    <style>
+        @font-face {
+            font-family: "Bubble";
+            src: url("{% static 'bubble.ttf' %}");
+        }
+        
+        @font-face {
+            font-family: "Minecraft";
+            src: url("{% static 'minecraft.ttf' %}");
+        }
+        
+        @font-face {
+            font-family: "Pixels";
+            src: url("{% static 'pixels.ttf' %}");
+        }
+    </style>
+    
+    
+</head>
+
+<body>
+    
+    <h1 class="primaryHeader">SAVE THE WORLD</h1>
+    <h1 class="secondaryHeader">! we are on the verge on nuclear war !</h1>
+
+    <button class="readStartButton">HOW CAN<br>I HELP?</button>
+
+    <div id="revealableTextDiv">    
+    </div>
+
+    <div id="startForm" style="display: none;">
+        
+        <div id="nameInputDiv">
+            <label class="titleLabel">Enter First Name</label><br>
+            <input id="firstNameInput" class="nameInput" type="text"> <br>
+       
+            <label class="titleLabel">Enter Last Name</label> <br>
+            <input id="lastNameInput" class="nameInput" type="text"> <br>
+        
+            <label class="titleLabel">Select Gender</label> <br>
+            
+            <div id="genderRadioDiv">
+                <input id="maleRadio" class="radio" type="radio" name="gender" value="male">
+                <label class="radioLabel" for="maleRadio">Male</label>
+                
+                <input id="femaleRadio" class="radio" type="radio" name="gender" value="female">
+                <label class="radioLabel" for="femaleRadio" >Female</label>
+                
+                
+            </div>
+
+        </div>
+    
+        <button id="startFormButton">CLICK <br>TO START</button>
+        <h1 id="warningHeader">enter in all the information</h1>
+
+    <div>
+    
+</body>
+
+<footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sam-js@0.2.0/dist/samjs.min.js"></script>
+    <script src="http://iamdanfox.github.io/typetype/jquery.typetype.js"></script>
+    
+    <script src="{% static 'typer.js' %}"></script>
+    <script src="{% static 'start.js' %}"></script>
+    
+    
+   
+    
+</footer>
+
+
+</html>

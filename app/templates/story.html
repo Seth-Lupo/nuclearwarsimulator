@@ -1,0 +1,72 @@
+<html>
+
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+    <style>
+        @font-face {
+            font-family: "Bubble";
+            src: url("{% static 'bubble.ttf' %}");
+        }
+        
+        @font-face {
+            font-family: "Minecraft";
+            src: url("{% static 'minecraft.ttf' %}");
+        }
+        
+        @font-face {
+            font-family: "Pixels";
+            src: url("{% static 'pixels.ttf' %}");
+        }
+    </style>
+
+    <script>
+        let text = {{ text|safe }}
+        let code = "{{code}}"
+        console.log(text, code)
+    </script>
+    
+    
+</head>
+
+<body>
+    
+    <h1 class="chapterHeader">{{title}}...</h1>
+    <button class="readButton">READ MORE</button>
+    <h1 id="revealableTextDiv"></h1>
+
+    <div id="choiceInfoDiv" style="display: none;">
+        <div id="choicesDiv">
+            <!-- <a class="choiceButton" freq="23">Eat Lunch</a>
+            <a class="choiceButton" freq="25">Kill A Lion</a>
+            <a class="choiceButton" freq="25">Eat Barbacue Bacon Burger</a>
+            <a class="choiceButton" freq="23">Eat A Shoe </a>
+            <a class="choiceButton" freq="3">Play Guitar</a> -->
+            {% for choice in choices %}
+                <button code="{{choice.link}}" class="choiceButton" freq="{{choice.freq}}">{{ choice.label}}</button>            
+            {% endfor %}
+        
+        </div>
+        <h1 id="choiceInfo"></h1>
+    </div>
+    
+</body>
+
+<footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sam-js@0.2.0/dist/samjs.min.js"></script>
+    <script src="http://iamdanfox.github.io/typetype/jquery.typetype.js"></script>
+    
+    <script src="{% static 'typer.js' %}"></script>
+    <script src="{% static 'story.js' %}"></script>
+    
+    
+   
+    
+</footer>
+
+
+</html>

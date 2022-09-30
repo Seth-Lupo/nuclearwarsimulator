@@ -1,0 +1,24 @@
+[
+
+    "0" : {
+        "type":"event",
+        "title": "Sample Title",
+        "text":[
+            
+        ],
+        "options": [
+            {
+                "label":"Flight",
+                "linked":1,
+                "ending":false
+            },
+            {
+                "label":"Fight",
+                "linked":2,
+                "ending":false
+            }
+        ]
+
+    },
+
+]
